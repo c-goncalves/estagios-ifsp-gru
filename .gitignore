@@ -1,0 +1,23 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tailwind build output
+html/css/output.css
+
+# Sistema
+.DS_Store
+*.swp
+*.swo
+*.tmp
+
+# Logs
+logs/
+*.log
+
+# Docker intermediários
+*.pid
+*.seed
+*.pid.lock
