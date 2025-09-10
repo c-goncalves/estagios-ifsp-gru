@@ -21,7 +21,7 @@ $demandante_apresentacao = "O Instituto Federal de São Paulo possui mais de um 
                 para o mercado de trabalho e para a cidadania, por meio da oferta de cursos
                 em diferentes níveis e modalidades, articulados ao desenvolvimento científico,
                 tecnológico e social.";
-$demandante_video_url = "https://www.youtube.com/embed/dQw4w9WgXcQ";
+$demandante_video_url = "https://youtu.be/HVD-VKqUH08";
 
 
 $demanda_titulo = "Automatização do Envio de Documentação dos Estágio";

@@ -8,7 +8,7 @@ include_once 'content.php';
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Projeto de Extensão - <?php echo $demandante_nome; ?></title>
 
-<link rel="stylesheet" href="css/output.css">
+<link rel="stylesheet" href="/src/output.css">
 
 </head>
 <body class="h-full flex bg-gray-900 text-white">
