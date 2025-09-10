@@ -1,12 +1,10 @@
-<?php
-include_once 'content.php';
-?>
 <!DOCTYPE html>
 <html lang="pt-BR" class="h-full">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Projeto de Extensão - <?php echo $demandante_nome; ?></title>
+<title>Projeto de Extensão - IFSP Campus Guarulhos</title>
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 
 <link rel="stylesheet" href="/src/output.css">
 
@@ -30,11 +28,12 @@ include_once 'content.php';
     <!-- Apresentação -->
     <section id="tabExtencao" class="tab-content active rounded-xl p-8 mb-8 bg-white transition-all shadow-md">
         
-        <h2 class="text-4xl mb-4 text-center"><?php echo $projeto_titulo; ?></h2>
+        <h2 class="text-4xl mb-4 text-center">Projeto de Extensão 2025</h2>
         <h3 class="text-xl font-semibold mb-2">Apresentação</h3>
-        <p class="mb-4"><?php echo $apresentacao; ?></p>
+        <p class="mb-4">A  IFSP - Câmpus Guarulhos, assim como as muitas universidade e instututos, compreende a extensão como a ponte que conecta o conhecimento da academia com as necessidades da comunidade. Muito mais do que uma disciplina, é uma filosofia de trabalho que nos inspira a usar a tecnologia para criar soluções reais e com impacto social.</p>
         <h3 class="text-xl font-semibold mb-2">A Nossa Jornada de Extensão</h3>
-        <p class="mb-4"><?php echo $apresentacao_jornada; ?></p>
+        <p class="mb-4">A extensão universitária é um pilar fundamental da formação academica que prega que os conhecimentos adquiridos não devem se limitar à sala de aula, mas sim, atuar como ferramentas de transformação social.
+Nesta plataforma, você acompanhará a jornada de um projeto, que é uma prova desse compromisso. Você vai ver:</p>
         <p class="mb-4">Nesta plataforma, você acompanhará a jornada de um projeto, que é uma prova desse compromisso. Você vai ver:</p>
         <ol class="list-decimal list-inside mb-4 space-y-1">
             <li>Prospecção de Demandas: Como identificamos os problemas reais da nossa comunidade.</li>
@@ -44,7 +43,11 @@ include_once 'content.php';
 
         <div class="mb-4 p-4 bg-gray-100 rounded-lg text-gray-900 shadow-md">
             <h3 class="font-semibold mb-2">Diário de Bordo</h3>
-            <p><?php echo $diario_bordo; ?></p>
+            <p>Acompanhe, nesta plataforma, o diário de bordo do desenvolvimento do
+        trabalho realizado para atender uma das muitas demandas no nosso campus
+        e mostrar que, no IFSP, a extensão é uma via de mão dupla, onde
+        aprendemos e colaboramos com a sociedade, tornando a universidade um
+        verdadeiro motor de desenvolvimento.</p>
         </div>
 
         <div class="flex justify-end mt-4">
@@ -57,8 +60,18 @@ include_once 'content.php';
         <h2 class="text-3xl mb-4 text-center">Demandante</h2>
         <div class="grid gap-6">
             <div>
-                <h3 class="text-xl font-semibold mb-2"><?php echo $demandante_nome; ?></h3>
-                <p class="mb-2"><?php echo $demandante_apresentacao; ?></p>
+                <h3 class="text-xl font-semibold mb-2">IFSP Campus Guarulhos</h3>
+                <p class="mb-2">O Instituto Federal de São Paulo possui mais de um século de história,
+                consolidando-se como referência na formação técnica e tecnológica.
+                O Campus Guarulhos foi implantado, em 2006, para atender às necessidades
+                educacionais e sociais da região metropolitana de São Paulo, ampliando o
+                acesso ao ensino público e de qualidade.
+                </p>
+                <p>
+                Sua principal atividade consiste na formação de profissionais capacitados
+                para o mercado de trabalho e para a cidadania, por meio da oferta de cursos
+                em diferentes níveis e modalidades, articulados ao desenvolvimento científico,
+                tecnológico e social.</p>
                 <h4 class="font-semibold mb-1">Cursos Oferecidos</h4>
                 <ul class="list-disc list-inside space-y-1">
                     <li><b>Técnicos:</b> Automação Industrial, Informática para Internet, Sistemas de Energia Renovável.</li>
@@ -72,17 +85,24 @@ include_once 'content.php';
 
     <!-- Demanda -->
     <section id="tabDemanda" class="tab-content rounded-xl p-8 mb-8 bg-white">
-        <h2 class="text-3xl mb-4 text-center"><?php echo $demanda_titulo; ?></h2>
+        <h2 class="text-3xl mb-4 text-center">Automatização do Envio de Documentação dos Estágio</h2>
         <h3 class="text-xl font-semibold mb-2">Detalhes do Problema</h3>
-        <p class="mb-4"><?php echo $demanda_problema_detalhe; ?></p>
+        <p class="mb-4">A principal demanda identificada pelo campus está relacionada à
+        automatização do processo de envio e análise da documentação de estágios.
+        Atualmente, tal processo é realizado manualmente, o que ocasiona atrasos,
+        retrabalho e falhas decorrentes da ausência de leitura atenta das instruções
+        por parte dos discentes.</p>
         <h3 class="text-xl font-semibold mb-2">Proposta</h3>
-        <p class="mb-4"><?php echo $demanda_proposta; ?></p>
-        <h3 class="text-xl font-semibold mb-4">Confira nossa entrevista na integra com o representante do Instituto</h3>
+        <p class="mb-4">Nesse contexto, a proposta central é o desenvolvimento de um sistema
+        informatizado que possibilite maior clareza, legibilidade e agilidade
+        na tramitação da documentação, contribuindo para a eficiência
+        administrativa e acadêmica do processo de estágio.</p>
+        <h3 class="text-xl font-semibold mb-4">Confira nossa entrevista com o representante do Instituto</h3>
 
         <div class="flex justify-center my-4">
             <div class="w-full max-w-md aspect-video rounded-lg overflow-hidden">
                 <iframe
-                  src="<?php echo $demandante_video_url; ?>"
+                  src="https://youtu.be/HVD-VKqUH08"
                   frameborder="0"
                   allowfullscreen
                   class="w-full h-full block border-0"
@@ -93,19 +113,41 @@ include_once 'content.php';
 
     <!-- Equipe -->
     <section id="tabEquipe" class="tab-content rounded-xl p-8 mb-8 bg-white">
-        <h2 class="text-3xl mb-6 text-center"><?php echo $equipe_titulo; ?></h2>
+        <h2 class="text-3xl mb-6 text-center">Equipe</h2>
         <ul class="flex flex-col gap-4">
-            <?php foreach ($equipe_integrantes as $integrante): ?>
             <li class="flex items-center bg-gray-100 rounded-lg p-4 hover:bg-gray-200 transition-shadow">
                 <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-600 text-white font-bold flex items-center justify-center mr-4">
-                    <?php echo substr($integrante['nome'], 0, 1); ?>
+                    Ana Souza
                 </div>
                 <div class="info">
-                    <strong class="block font-semibold text-gray-900"><?php echo $integrante['nome']; ?></strong>
-                    <p class="text-gray-700 text-sm"><?php echo $integrante['funcao']; ?></p>
+                    <strong class="block font-semibold text-gray-900">Ana Souza</strong>
+                    <p class="text-gray-700 text-sm">Scrum Master e Desenvolvedor</p>
                 </div>
             </li>
-            <?php endforeach; ?>
+            <li class="flex items-center bg-gray-100 rounded-lg p-4 hover:bg-gray-200 transition-shadow">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-600 text-white font-bold flex items-center justify-center mr-4">
+                </div>
+                <div class="info">
+                    <strong class="block font-semibold text-gray-900">Thaynara</strong>
+                    <p class="text-gray-700 text-sm">Pesquisadora e Designer</p>
+                </div>
+            </li>
+            <li class="flex items-center bg-gray-100 rounded-lg p-4 hover:bg-gray-200 transition-shadow">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-600 text-white font-bold flex items-center justify-center mr-4">
+                </div>
+                <div class="info">
+                    <strong class="block font-semibold text-gray-900">Sophia</strong>
+                    <p class="text-gray-700 text-sm">Desenvolvedor</p>
+                </div>
+            </li>
+            <li class="flex items-center bg-gray-100 rounded-lg p-4 hover:bg-gray-200 transition-shadow">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-600 text-white font-bold flex items-center justify-center mr-4">
+                </div>
+                <div class="info">
+                    <strong class="block font-semibold text-gray-900">Sabrina</strong>
+                    <p class="text-gray-700 text-sm">Testador</p>
+                </div>
+            </li>
         </ul>
     </section>
 
